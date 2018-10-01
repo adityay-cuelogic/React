@@ -9,6 +9,7 @@ class OrderSummary extends Component {
                                 <li key={igKey}>{igKey}:{this.props.ingredients[igKey]}</li>
                             );
                         });
+             
         return (
             <div>
                 <h2>Order</h2>
